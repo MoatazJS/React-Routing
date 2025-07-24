@@ -13,7 +13,7 @@ import Layout from "./Components/Layout/Layout";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "",
+      path: "/",
       element: <Layout />,
       children: [
         { index: true, element: <Navigate to="/home" /> },
