@@ -3,9 +3,9 @@ import React from "react";
 export default function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-danger">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-secondary text-white">
         <div className="container">
-          <a className="navbar-brand fs-4 fw-bold" href="#">
+          <a className="navbar-brand fs-2 fw-bold" href="#">
             START FRAMEWORK
           </a>
 
@@ -25,9 +25,9 @@ export default function Navbar() {
             className="collapse navbar-collapse justify-content-end"
             id="navbarNav"
           >
-            <ul className="navbar-nav ms-auto">
+            <ul className="navbar-nav ms-auto  fw-bold text-white">
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <a className="nav-link active " href="#">
                   ABOUT
                 </a>
               </li>
