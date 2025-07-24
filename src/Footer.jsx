@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-secondary text-white py-4">
+      <footer className="bg-secondary text-white py-5">
         <div className="container">
           <div className="row text-center">
             <div className="col-md-4 mb-4 mb-md-0">
@@ -52,7 +52,7 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-      <div className=" text-white text-center p-3 bg-dark">
+      <div className=" text-white text-center p-3 bg-dark py-4">
         <p className="mb-0">Copyright © Your Website 2021</p>
       </div>
     </>
