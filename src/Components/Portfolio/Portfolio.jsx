@@ -1,11 +1,11 @@
 import React from "react";
 import { FaStar, FaPlus } from "react-icons/fa";
-import img1 from "./assets/portfolio1.png";
-import img2 from "./assets/portfolio2.png";
-import img3 from "./assets/portfolio3.jpg";
-import img4 from "./assets/portfolio4.png";
-import img5 from "./assets/portfolio5.png";
-import img6 from "./assets/portfolio6.png";
+import img1 from "../../assets/portfolio1.png";
+import img2 from "../../assets/portfolio2.png";
+import img3 from "../../assets/portfolio3.jpg";
+import img4 from "../../assets/portfolio4.png";
+import img5 from "../../assets/portfolio5.png";
+import img6 from "../../assets/portfolio6.png";
 
 export default function Portfolio() {
   const portfolioItems = [
@@ -18,7 +18,10 @@ export default function Portfolio() {
   ];
   return (
     <>
-      <section className="py-5 bg-white text-dark text-center" id="portfolio">
+      <section
+        className="pt-5 mt-5 pb-5 mb-5 bg-white text-dark text-center"
+        id="portfolio"
+      >
         <h2 className="text-uppercase fw-bold fs-1">Portfolio Component</h2>
 
         <div className="d-flex justify-content-center align-items-center my-3">

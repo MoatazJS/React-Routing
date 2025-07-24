@@ -3,7 +3,7 @@ import { FaStar, FaPlus } from "react-icons/fa";
 export default function About() {
   return (
     <>
-      <div className="content bg-info text-white min-vh-100 d-flex flex-column align-items-center justify-content-center">
+      <div className="content bg-info text-white min-vh-100 d-flex flex-column align-items-center justify-content-center ">
         <div className="header text-center mb-4">
           <h1 className="fw-bold fs-1 text-uppercase">about component</h1>
           <div className="d-flex justify-content-center align-items-center my-3">
