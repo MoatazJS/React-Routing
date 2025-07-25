@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 export default function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-secondary text-white fixed-top ">
         <div className="container">
-          <Link className="navbar-brand fs-2 fw-bold" to="/home">
+          <NavLink className="navbar-brand fs-2 fw-bold" to="/home">
             START FRAMEWORK
-          </Link>
+          </NavLink>
 
           <button
             className="navbar-toggler"
@@ -27,19 +28,34 @@ export default function Navbar() {
           >
             <ul className="navbar-nav ms-auto  fw-bold text-white">
               <li className="nav-item">
-                <Link className="nav-link active " to="/about">
+                <NavLink
+                  to="/about"
+                  className={({ isActive }) =>
+                    `nav-link ${isActive ? "active" : ""}`
+                  }
+                >
                   ABOUT
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/portfolio">
+                <NavLink
+                  to="/portfolio"
+                  className={({ isActive }) =>
+                    `nav-link ${isActive ? "active" : ""}`
+                  }
+                >
                   PORTFOLIO
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/contact">
+                <NavLink
+                  to="/contact"
+                  className={({ isActive }) =>
+                    `nav-link ${isActive ? "active" : ""}`
+                  }
+                >
                   CONTACT
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>
